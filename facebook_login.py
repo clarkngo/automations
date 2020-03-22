@@ -1,9 +1,12 @@
 # this is to test my first automation using Python in MacOS
-# Step 1 - Download ChromeDriver at https://sites.google.com/a/chromium.org/chromedriver/
-# Step 2 - Unzip and place in a folder. I placed the 'chromedriver' at /User/clarkngo/drivers
-# Step 3 - Edit your path with command "sudo nano /etc/paths"
-# Step 4 - Add the path of your driver in /etc/paths (Example: /User/clarkngo/drivers)
-# Step 5 - Execute the code below
+# Steps:
+# 1 - Check if you have Selenium with command "pip freeze | grep selenium"
+#     If you don't have it, "pip install selenium"
+# 2 - Download ChromeDriver at https://sites.google.com/a/chromium.org/chromedriver/
+# 3 - Unzip and place in a folder. I placed the 'chromedriver' at /User/clarkngo/drivers
+# 4 - Edit your path with command "sudo nano /etc/paths"
+# 5 - Add the path of your driver in /etc/paths (Example: /User/clarkngo/drivers)
+# 6 - Execute the code below
 # Resources:
 # https://youtu.be/-6H3xyhPK3I
 # https://www.kenst.com/2015/03/including-the-chromedriver-location-in-macos-system-path/
